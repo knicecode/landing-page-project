@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.one {
+    background-color: rgb(47, 56, 77);
+    padding-right: 10px;
+}
+
+.two {
+    background-color: white;
+}
+
+.three {
+    background-color: rgb(211, 200, 200);
+}
+
+.four {
+    background-color: white;
+}
+
+.five {
+    background-color: rgb(47, 56, 77);
+}
+
+.content1, .content2, .content3, .content4, .content5 {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content1 {
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 8px;
+}
+
+a {
+    font-size: 12px;
+    color: white;
+}
+
+
+a {
+    text-decoration: none;
+}
