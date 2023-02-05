@@ -1,13 +1,22 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    width: 100%;
+    margin: 0;
 }
 
 .one {
     background-color: rgb(47, 56, 77);
     padding-right: 10px;
     padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .two {
@@ -34,7 +43,8 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .content1 {
@@ -45,7 +55,7 @@ ul {
     display: flex;
     list-style: none;
     gap: 8px;
-    flex: 1;
+
 }
 
 a {
@@ -100,7 +110,7 @@ a {
     margin: 8px;
 }
 
-button {
+.button1 {
     background-color: gray;
     color: white;
     border-radius: 5px;
@@ -121,3 +131,38 @@ img {
     color: black;
 }
 
+.button2 {
+    justify-self: center;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 10px;
+}
+
+.content4 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 0, 255);
+    margin: 50px 15% 50px 15%;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+
+.content3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.white {
+    color: white;
+}
+
+p.white {
+    font-size: 10px;
+}
+
+.twopics {
+    border: 2px solid blue;
+    border-radius: 6px;
+}
