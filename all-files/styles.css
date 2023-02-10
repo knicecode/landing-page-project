@@ -32,7 +32,7 @@ body {
 }
 
 .five {
-    background-color: rgb(47, 56, 77);
+    background-color: rgb(211, 200, 200);
 }
 
 .content1, .content2, .content3, .content4, .content5 {
@@ -43,7 +43,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
 }
 
@@ -53,9 +53,9 @@ body {
 
 ul {
     display: flex;
+    flex-direction: column;
     list-style: none;
-    gap: 8px;
-
+    gap: 50px; 
 }
 
 a {
@@ -94,6 +94,7 @@ a {
     justify-content: center;
     align-items: center;
     color: white;
+    width: 100%
 }
 
 .left1 {
@@ -138,15 +139,18 @@ img {
     border-radius: 5px;
     border-style: none;
     margin-bottom: 10px;
+    margin-right: 25px;
+    width: 75px
 }
 
 .content4 {
     display: flex;
     flex-direction: row;
-    background-color: rgb(0, 0, 255);
+    background-color: rgb(47, 56, 77);
     margin: 50px 15% 50px 15%;
     border-radius: 5px;
     justify-content: space-evenly;
+    padding-left: 10px;
 }
 
 .content3 {
@@ -163,6 +167,10 @@ p.white {
 }
 
 .twopics {
-    border: 2px solid blue;
+    border: 2px solid rgb(47, 56, 77);
     border-radius: 6px;
+}
+
+h4 {
+    color: white;
 }
